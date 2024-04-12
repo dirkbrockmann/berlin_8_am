@@ -44,7 +44,7 @@ const initialize = (controls,grid) => {
 	 	.text(function(d,i){return 150-i*15})
 		.attr("class",styles.ticklabel)
 	
-	tacho.append("circle").attr("class","pivot").attr("r",5)
+
 	
 	tacho.selectAll("."+styles.pin).data(cars).enter().append("line").attr("class",styles.pin)
 		.attr("x1",function(d){return 0})
@@ -58,7 +58,7 @@ const initialize = (controls,grid) => {
 		.attr("y1",function(d){return 0})
 		.attr("y2",function(d){return -(tacho_r-2*tacho_tick)*Math.sin(d/v0)})
 	
-	
+		tacho.append("circle").attr("class","pivot").attr("r",5)
 }
 
 const update = (controls) => {
