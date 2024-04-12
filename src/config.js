@@ -8,9 +8,12 @@ export default {
 		slider_size: 400,
 		slider_show: true,
 		slider_gap : 1.5,
-		slider_anchor: {x:1,y:8},
-		toggle_anchor: {x:7,y:4},
-		toggle_label_pos:"right",
+		slider_girth: 12,
+		slider_knob: 14,
+		slider_anchor: {x:1,y:7},
+		toggle_anchor: {x:6.5,y:4},
+		toggle_label_position:"right",
+		toggle_gap:1,
 		playbutton_size: 120,
 		playbutton_anchor:{x:3,y:2},
 		backbutton_anchor:{x:4,y:5},
@@ -19,9 +22,15 @@ export default {
 		radio_size:150,
 		radio_orientation:"horizontal",
 		radio_label_position:"top",
-		radio_shape:"rect",
+		radio_shape:"rect"
 	},
 	simulation: {
 		delay:0
+	},
+	tacho:{
+		anchor: {x:8.5,y:3},
+		fontsize : 12,
+		tick: 4,
+		size:100
 	}
 }

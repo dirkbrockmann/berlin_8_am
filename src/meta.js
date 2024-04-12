@@ -1,5 +1,5 @@
 export default {
-  "title": "Explorable Title",
-  "subtitle":"Explorable Subtitle",
-  "description": "This is a template for making a complexity explorable. The template can be used to create a new complexity explorable. This template implements the Vicsek Model."
+  "title": "Berlin 8:00 a.m.",
+  "subtitle":"The emergence of phantom traffic jams",
+  "description": "This explorable illustrates a model for traffic and congestion and the phenomenon knowns as phantom traffic jams, spontaneously emergent congested traffic segments that move slowly and oppositely to the traffic.",
 }

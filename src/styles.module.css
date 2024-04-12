@@ -1,3 +1,74 @@
-.node {
+.car {
+	stroke:black;
+	stroke-width:1px;
+}
+
+.tire {
+	fill:black;
+	stroke:none;
+}
+
+.street_background {
+	stroke:black;
+	stroke-width:32;
+	fill:none;
+	stroke-linecap:round	
+}
+
+.asphalt {
+	stroke:rgb(120,120,120);
+	stroke-width:29;
+	fill:none;
+	stroke-linecap:round
+}
+
+.street_marks {
+	stroke:white;
+	stroke-width:1;
+	fill:none;
+	stroke-dasharray:4
+}
+
+.tacho{
 	
+}
+
+.tachoborder {
+	fill:none;
+	stroke:black;
+	stroke-width:1.5px;
+}
+
+.tachoredzone {
+	fill:none;
+	stroke:red;
+	stroke-opacity:0.3;
+	stroke-width:7;
+	stroke-linecap:round;
+}
+
+.tachotick{
+	fill:none;
+	stroke:black;
+	stroke-width:1px;
+}
+
+.ticklabel{
+	font-size:10;
+	text-anchor:middle;
+	
+}
+
+.pin {
+	stroke:black;
+	stroke-width:1px;
+	stroke-linecap:round;
+	stroke-opacity:0.1;
+}
+
+.meanspeed{
+	stroke:rgb(180,0,0);
+	stroke-width:5px;
+	stroke-linecap:round;
+	stroke-opacity:1;
 }

@@ -22,4 +22,12 @@ const dist = (a,b) => {
 	return Math.sqrt(dx*dx + dy*dy);
 }
 
-export {toArray,add_id_label,add_widget,get_variables,get_booleans,get_choices,deg2rad,rad2deg,dist}
+const ad = (x2,x1) => {
+	if (x2-x1 >= 0 && x2-x1 < 0.5) {return x2-x1};
+	if (x2-x1 < 0 && x2-x1 < -0.5) {return 1 - x1  + x2};
+	if (x2-x1 < 0 && x2-x1 > -0.5) {return x2-x1};
+	if (x2-x1 > 0 && x2-x1 > 0.5) {return x2-x1-1};
+}
+
+
+export {ad,toArray,add_id_label,add_widget,get_variables,get_booleans,get_choices,deg2rad,rad2deg,dist}
