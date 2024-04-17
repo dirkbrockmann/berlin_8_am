@@ -1,13 +1,13 @@
 {
-  "name": "@explorables/berlin_8_am",
-  "title": "Berlin 8:00 a.m.",
-  "subtitle": "The emergence of phantom traffic jams",
+  "name": "@cosmo-explorables/berlin_8_am",
+  "title": "Berlin morgens um 8:00",
+  "subtitle": "Die Enstehung von Phantomstaus",
   "version": "1.1.1",
   "license": "CC-BY-4.0",
-  "description": "This explorable illustrates a model for traffic and congestion and the phenomenon knowns as phantom traffic jams, spontaneously emergent congested traffic segments that move slowly and oppositely to the traffic.",
+  "description": "Dieses explorable zeigt ein einfaches Verkehrsmodell, das in der Lage ist die spontane Entstehung von sogenannt Phantomstaus zu beschreiben, die sich entgegen der Verkehrsrichtung ausbreiten, wenn die Zielgeschwindigkeiten einzelener Verkehrsteilnehmer gross ist.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkbrockmann/berlin_8_am.git"
+    "url": "git+https://github.com/dirkbrockmann/berlin_8_am.git#cosmo"
   },
   "author": "Dirk Brockmann (https://rocs.hu-berlin.de)",
   "main": "./dist/index.js",
