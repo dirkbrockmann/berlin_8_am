@@ -21,7 +21,7 @@ export default {
 		},	
 		mean_speed: {
 			range:[0.1,0.3],
-			default:0.2
+			default:0.2,
 		},
 		speed_variability: {
 			range:[0,0.25*0.2],

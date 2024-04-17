@@ -4,7 +4,7 @@ import setup_container from "./setup_container.js"
 import setup_interactions from "./setup_interactions.js"
 import setup_controls from "./controls.js"
 import {initialize as setup_simulation} from "./simulation.js"
-import {go} from "./controls.js"
+import {go,setup as setup_all,reset as reset_all} from "./controls.js"
 import meta from "./meta.js"
 
 // load is called in the webpage
@@ -32,8 +32,7 @@ const load = function (container_id,config=cfg) {
 	
 	setup_interactions(display,controls,grid,config); // this connects actions to the widgets, like starting the simulation, pausing it, resetting variables, anything connected to the change of a widget state.
 
-// initializing the system
-	
+// initializing the system	
 	setup_simulation(display,controls,grid,config)
 	
 }
@@ -44,4 +43,14 @@ const halt  = function(){
 	}
 }
 
-export {load,cfg as config,halt,meta};
+const reset  = function(){
+	if(go.value()==1){
+			go.press(controls)
+	}
+	
+	reset_all.press(controls)
+	setup_all.press(controls)
+	
+}
+
+export {load,cfg as config,halt,meta,reset};
