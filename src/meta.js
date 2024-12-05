@@ -1,5 +1,5 @@
 export default {
-  "title": "Berlin 8:00 a.m.",
-  "subtitle":"The emergence of phantom traffic jams",
-  "description": "This explorable illustrates a model for traffic and congestion and the phenomenon knowns as phantom traffic jams, spontaneously emergent congested traffic segments that move slowly and oppositely to the traffic.",
+  "title": "Berlin morgens um 8:00",
+  "subtitle": "Die Enstehung von Phantomstaus",
+  "description": "Dieses explorable zeigt ein einfaches Verkehrsmodell, das in der Lage ist die spontane Entstehung von sogenannt Phantomstaus zu beschreiben, die sich entgegen der Verkehrsrichtung ausbreiten, wenn die Zielgeschwindigkeiten einzelener Verkehrsteilnehmer groß ist.",
 }
