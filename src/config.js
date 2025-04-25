@@ -25,7 +25,7 @@ export default {
 		radio_shape:"rect"
 	},
 	simulation: {
-		delay:0
+		delay:10
 	},
 	tacho:{
 		anchor: {x:8.5,y:3},
