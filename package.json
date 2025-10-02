@@ -4,7 +4,7 @@
   "subtitle": "The emergence of phantom traffic jams",
   "description": "This explorable illustrates a model for traffic and congestion and the phenomenon knowns as phantom traffic jams, spontaneously emergent congested traffic segments that move slowly and oppositely to the traffic.",
   "author": "Dirk Brockmann (https://synosy.github.io)",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
