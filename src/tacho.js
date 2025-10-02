@@ -58,7 +58,7 @@ const initialize = (controls,grid) => {
 		.attr("y1",function(d){return 0})
 		.attr("y2",function(d){return -(tacho_r-2*tacho_tick)*Math.sin(d/v0)})
 	
-		tacho.append("circle").attr("class","pivot").attr("r",5)
+	tacho.append("circle").attr("class",styles.pivot).attr("r",5)
 }
 
 const update = (controls) => {

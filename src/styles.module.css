@@ -1,3 +1,13 @@
+.displayPanel {
+  /* Styles for the display panel */
+  display: block;
+}
+
+.controlPanel {
+  /* Styles for the control panel */
+  display: block;
+}
+
 .car {
 	stroke:black;
 	stroke-width:1px;
@@ -29,8 +39,11 @@
 	stroke-dasharray:4
 }
 
-.tacho{
-	
+
+
+.pivot {
+	stroke:black;
+	fill:black
 }
 
 .tachoborder {
@@ -71,4 +84,86 @@
 	stroke-width:5px;
 	stroke-linecap:round;
 	stroke-opacity:1;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .car {
+	stroke:black;
+	stroke-width:1px;
+}
+
+.tire {
+	fill:black;
+	stroke:none;
+}
+
+.street_background {
+	stroke:white;
+	stroke-width:32;
+	fill:none;
+	stroke-linecap:round	
+}
+
+.asphalt {
+	stroke:rgb(20,20,20);
+	stroke-width:29;
+	fill:none;
+	stroke-linecap:round
+}
+
+.street_marks {
+	stroke:gray;
+	stroke-width:1;
+	fill:none;
+	stroke-dasharray:4
+}
+
+
+.tachoborder {
+	fill:none;
+	stroke:white;
+	stroke-width:1.5px;
+}
+
+.tachoredzone {
+	fill:none;
+	stroke:red;
+	stroke-opacity:0.7;
+	stroke-width:7;
+	stroke-linecap:round;
+}
+
+.tachotick{
+	fill:none;
+	stroke:white;
+	stroke-width:1px;
+}
+
+.ticklabel{
+	font-size:10;
+	text-anchor:middle;
+	fill:white;
+}
+
+.pin {
+	stroke:white;
+	stroke-width:1px;
+	stroke-linecap:round;
+	stroke-opacity:0.1;
+}
+
+.pivot {
+	stroke:white;
+	fill:white;
+}
+
+
+.meanspeed{
+	stroke:rgb(180,0,0);
+	stroke-width:5px;
+	stroke-linecap:round;
+	stroke-opacity:1;
+}
+
 }
