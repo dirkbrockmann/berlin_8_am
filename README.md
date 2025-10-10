@@ -8,7 +8,7 @@
 
 This explorable illustrates a model for traffic and congestion and the phenomenon knowns as phantom traffic jams, spontaneously emergent congested traffic segments that move slowly and oppositely to the traffic.
 
-The explorable is part of the [**Complexity Exporables Collection**](https://www.complexity-explorables.org). For more information about the system and its behavior consult the explorable
+The explorable is part of the [**Complexity Explorables Collection**](https://www.complexity-explorables.org). For more information about the system and its behavior consult the explorable
 > [**“Berlin 8:00 a.m.” - The emergence of phantom traffic jams**](https://www.complexity-explorables.org/explorables/berlin-8-am)
 
 ## Usage & Installation
@@ -24,8 +24,11 @@ If you want to run a local copy without having to rely on the nasty internet, th
 is to install it via `npm`:
 
 ```shell
+mkdir berlin_8_am
+cd berlin_8_am
+npm init -y
 npm install @explorables/berlin_8_am
-open node_modules/@explorables/berlin_8_am/dist/index.html 
+npx http-server node_modules/@explorables/berlin_8_am/dist/ 
 ```
 
 ### Embedding the explorable in your site
